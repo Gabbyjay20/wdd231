@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD231 Home Page - Gabriel James">
+    <meta name="author" content="Gabriel James">
+    <title>WDD231 | Home</title>
+
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/larger.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+</head>
+
+<body>
+
+    <header class="top-header">
+        <div class="logo">
+            <svg width="35" height="35" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45" fill="#1e3a8a" />
+            </svg>
+            <span>Gabriel James</span>
+        </div>
+
+        <button id="menuBtn" aria-label="Toggle Navigation">&#9776;</button>
+    </header>
+
+    <nav>
+        <ul id="navMenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Chamber Project</a></li>
+            <li><a href="#">Final Project</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <h1>Home</h1>
+
+        <section class="about">
+            <h2>About Me</h2>
+            <p>Hello! I am working toward software engineering and enjoy learning web development.</p>
+        </section>
+
+        <section class="photo">
+            <h2>Student Photo</h2>
+            <img src="images/student-photo.png" alt="Student Photo">
+        </section>
+
+        <section class="courses-section">
+            <h2>Web Certificate Courses</h2>
+
+            <div class="btn-group">
+                <button id="allBtn">All</button>
+                <button id="cseBtn">CSE</button>
+                <button id="wddBtn">WDD</button>
+            </div>
+
+            <div id="courses"></div>
+
+            <p id="totalCredits"></p>
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="social">
+            <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+        </div>
+
+        <p>&copy; <span id="year"></span> Gabriel James • Nigeria</p>
+        <p id="lastModified"></p>
+
+    </footer>
+
+</body>
+
+</html>

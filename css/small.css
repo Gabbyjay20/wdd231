@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 1rem;
+    line-height: 1.5;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+nav ul {
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+nav ul.open {
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.5rem;
+    background: #444;
+    color: white;
+}
+
+button {
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+}
+
+h1,
+h2 {
+    margin: 1rem 0;
+}
+
+.about,
+.photo,
+.courses-section {
+    margin-bottom: 2rem;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+}
+
+.btn-group {
+    display: flex;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.course-card {
+    border: 1px solid #ccc;
+    padding: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.completed {
+    background: #d1fae5;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+footer .social a {
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: #333;
+}
