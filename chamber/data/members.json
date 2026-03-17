@@ -4,48 +4,55 @@
     "address": "12 Marina Lagos",
     "phone": "+2348011111111",
     "website": "https://example.com",
-    "image": "business1.svg"
+    "image": "business1.svg",
+    "membership": "gold"
   },
   {
     "name": "Green Farms Ltd",
     "address": "Lekki Lagos",
     "phone": "+2348022222222",
     "website": "https://example.com",
-    "image": "business2.svg"
+    "image": "business2.svg",
+    "membership": "silver"
   },
   {
     "name": "Ocean Transport",
     "address": "Apapa Lagos",
     "phone": "+2348033333333",
     "website": "https://example.com",
-    "image": "business3.svg"
+    "image": "business3.svg",
+    "membership": "bronze"
   },
   {
     "name": "Digital Solutions",
     "address": "Ikeja Lagos",
     "phone": "+2348044444444",
     "website": "https://example.com",
-    "image": "business4.svg"
+    "image": "business4.svg",
+    "membership": "gold"
   },
   {
     "name": "Hotel Comfort",
     "address": "Victoria Island Lagos",
     "phone": "+2348055555555",
     "website": "https://example.com",
-    "image": "business5.svg"
+    "image": "business5.svg",
+    "membership": "silver"
   },
   {
     "name": "Agro Services",
     "address": "Epe Lagos",
     "phone": "+2348066666666",
     "website": "https://example.com",
-    "image": "business1.svg"
+    "image": "business1.svg",
+    "membership": "bronze"
   },
   {
     "name": "Logistics Pro",
     "address": "Surulere Lagos",
     "phone": "+2348077777777",
     "website": "https://example.com",
-    "image": "business2.svg"
+    "image": "business2.svg",
+    "membership": "gold"
   }
 ]

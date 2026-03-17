@@ -2,6 +2,18 @@
   #members.grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .spotlight-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .hero-image {
+    height: 400px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -15,6 +27,18 @@
   
   nav a {
     font-size: 1.1rem;
+  }
+  
+  .features-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .events-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .spotlight-grid {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
