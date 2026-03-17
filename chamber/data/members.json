@@ -1,46 +1,51 @@
 [
-{
-"name":"Lagos Tech Hub",
-"address":"12 Marina Lagos",
-"phone":"+234 8031111111",
-"website":"https://lagostech.com",
-"image":"business1.svg",
-"membership":3
-},
-
-{
-"name":"Island Bakery",
-"address":"45 Lekki Road",
-"phone":"+234 8032222222",
-"website":"https://islandbakery.com",
-"image":"business2.svg",
-"membership":2
-},
-
-{
-"name":"Smart Logistics",
-"address":"10 Ikeja Avenue",
-"phone":"+234 8033333333",
-"website":"https://smartlogistics.com",
-"image":"business3.svg",
-"membership":1
-},
-
-{
-"name":"Ocean Hotel",
-"address":"Victoria Island",
-"phone":"+234 8034444444",
-"website":"https://oceanhotel.com",
-"image":"business4.svg",
-"membership":3
-},
-
-{
-"name":"Green Farms",
-"address":"Badagry Road",
-"phone":"+234 8035555555",
-"website":"https://greenfarms.com",
-"image":"business5.svg",
-"membership":2
-}
+  {
+    "name": "Lagos Tech Hub",
+    "address": "12 Marina Lagos",
+    "phone": "+2348011111111",
+    "website": "https://example.com",
+    "image": "business1.svg"
+  },
+  {
+    "name": "Green Farms Ltd",
+    "address": "Lekki Lagos",
+    "phone": "+2348022222222",
+    "website": "https://example.com",
+    "image": "business2.svg"
+  },
+  {
+    "name": "Ocean Transport",
+    "address": "Apapa Lagos",
+    "phone": "+2348033333333",
+    "website": "https://example.com",
+    "image": "business3.svg"
+  },
+  {
+    "name": "Digital Solutions",
+    "address": "Ikeja Lagos",
+    "phone": "+2348044444444",
+    "website": "https://example.com",
+    "image": "business4.svg"
+  },
+  {
+    "name": "Hotel Comfort",
+    "address": "Victoria Island Lagos",
+    "phone": "+2348055555555",
+    "website": "https://example.com",
+    "image": "business5.svg"
+  },
+  {
+    "name": "Agro Services",
+    "address": "Epe Lagos",
+    "phone": "+2348066666666",
+    "website": "https://example.com",
+    "image": "business1.svg"
+  },
+  {
+    "name": "Logistics Pro",
+    "address": "Surulere Lagos",
+    "phone": "+2348077777777",
+    "website": "https://example.com",
+    "image": "business2.svg"
+  }
 ]
