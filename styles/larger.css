@@ -1,0 +1,27 @@
+@media (min-width: 768px) {
+
+    nav ul {
+        display: flex !important;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1.5rem;
+    }
+
+    .photo {
+        grid-column: 2 / 3;
+    }
+
+    .about,
+    .courses-section {
+        grid-column: 1 / 2;
+    }
+
+    .btn-group {
+        justify-content: start;
+    }
+}
