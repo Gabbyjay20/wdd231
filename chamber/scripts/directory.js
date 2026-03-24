@@ -1,6 +1,17 @@
 const url = "data/members.json";
 const container = document.querySelector("#members");
 
+// Hamburger Menu Toggle
+const menuToggle = document.getElementById('menu-toggle');
+const navigation = document.getElementById('navigation');
+
+if (menuToggle && navigation) {
+  menuToggle.addEventListener('click', () => {
+    navigation.classList.toggle('active');
+    menuToggle.classList.toggle('active');
+  });
+}
+
 async function getMembers() {
   const response = await fetch(url);
   const data = await response.json();

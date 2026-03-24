@@ -2,6 +2,17 @@
 document.querySelector("#year").textContent = new Date().getFullYear();
 document.querySelector("#lastModified").textContent = document.lastModified;
 
+// Hamburger Menu Toggle
+const menuToggle = document.getElementById('menu-toggle');
+const navigation = document.getElementById('navigation');
+
+if (menuToggle && navigation) {
+  menuToggle.addEventListener('click', () => {
+    navigation.classList.toggle('active');
+    menuToggle.classList.toggle('active');
+  });
+}
+
 // Weather Section - OpenWeatherMap API
 const weatherContainer = document.querySelector(".weather-card");
 
