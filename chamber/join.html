@@ -10,6 +10,11 @@
 <meta name="description" content="Apply to join the Lagos Chamber of Commerce.">
 <meta name="author" content="Gabriel James">
 
+<meta property="og:title" content="Join the Lagos Chamber of Commerce">
+<meta property="og:description" content="Apply for membership with the Lagos Chamber of Commerce and grow your business network.">
+<meta property="og:image" content="https://gabbyjay20.github.io/wdd231/chamber/images/logo.png">
+<meta property="og:url" content="https://gabbyjay20.github.io/wdd231/chamber/join.html">
+
 <link rel="icon" href="images/favicon.jpeg">
 
 <link rel="stylesheet" href="styles/normalize.css">
@@ -187,7 +192,8 @@ Free
 
 <button
 class="learn-more-btn"
-onclick="npModal.showModal()">
+id="npBtn"
+data-modal="npModal">
 
 Learn More
 
@@ -206,7 +212,8 @@ Learn More
 
 <button
 class="learn-more-btn"
-onclick="bronzeModal.showModal()">
+id="bronzeBtn"
+data-modal="bronzeModal">
 
 Learn More
 
@@ -225,7 +232,8 @@ Learn More
 
 <button
 class="learn-more-btn"
-onclick="silverModal.showModal()">
+id="silverBtn"
+data-modal="silverModal">
 
 Learn More
 
@@ -244,7 +252,8 @@ Learn More
 
 <button
 class="learn-more-btn"
-onclick="goldModal.showModal()">
+id="goldBtn"
+data-modal="goldModal">
 
 Learn More
 
@@ -270,7 +279,7 @@ Learn More
 
 </ul>
 
-<button onclick="npModal.close()">
+<button class="close-modal-btn" data-modal="npModal">
 
 Close
 
@@ -292,7 +301,7 @@ Close
 
 </ul>
 
-<button onclick="bronzeModal.close()">
+<button class="close-modal-btn" data-modal="bronzeModal">
 
 Close
 
@@ -314,7 +323,7 @@ Close
 
 </ul>
 
-<button onclick="silverModal.close()">
+<button class="close-modal-btn" data-modal="silverModal">
 
 Close
 
@@ -337,7 +346,7 @@ Close
 
 </ul>
 
-<button onclick="goldModal.close()">
+<button class="close-modal-btn" data-modal="goldModal">
 
 Close
 
