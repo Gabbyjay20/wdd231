@@ -45,6 +45,27 @@
   nav a {
     padding: 0.5rem;
   }
+
+  .join-container {
+    flex-direction: row;
+  }
+  
+  #membership-form {
+    flex: 1;
+    min-width: 350px;
+  }
+  
+  .membership-cards {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .thankyou-actions {
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -71,32 +92,7 @@
   .spotlight-grid {
     grid-template-columns: repeat(3, 1fr);
   }
-}
 
-@media (min-width: 768px) {
-  .join-container {
-    flex-direction: row;
-  }
-  
-  #membership-form {
-    flex: 1;
-    min-width: 350px;
-  }
-  
-  .membership-cards {
-    flex: 1;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-  
-  .thankyou-actions {
-    flex-direction: row;
-    justify-content: center;
-  }
-}
-
-@media (min-width: 1024px) {
   .membership-cards {
     grid-template-columns: repeat(2, 1fr);
   }
