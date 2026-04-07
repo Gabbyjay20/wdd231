@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Recipe Explorer | Home</title>
+  
+  <meta name="description" content="Discover and explore delicious recipes from around the world. Find easy, healthy, and quick meal ideas for every occasion.">
+  <meta name="author" content="Gabriel James">
+  
+  <meta property="og:title" content="Recipe Explorer - Discover Delicious Recipes">
+  <meta property="og:description" content="Explore thousands of recipes from around the world. Find easy, healthy, and quick meal ideas.">
+  <meta property="og:image" content="https://gabbyjay20.github.io/wdd231/final/images/hero.jpg">
+  <meta property="og:url" content="https://gabbyjay20.github.io/wdd231/final/index.html">
+  
+  <link rel="icon" href="images/favicon.png">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  
+  <script src="scripts/main.js" type="module" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>🍴 Recipe Explorer</h1>
+    </div>
+    <button id="menu-toggle" aria-label="Toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+  </header>
+  
+  <nav id="navigation">
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="recipes.html">Recipes</a></li>
+      <li><a href="favorites.html">Favorites</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Discover Delicious Recipes</h2>
+        <p>Explore thousands of recipes from around the world. Find easy, healthy, and quick meal ideas for every occasion.</p>
+        <div class="search-bar">
+          <input type="text" id="search-input" placeholder="Search recipes..." aria-label="Search recipes">
+          <button id="search-btn" aria-label="Search">🔍</button>
+        </div>
+      </div>
+    </section>
+    
+    <section class="featured">
+      <h2>Featured Recipes</h2>
+      <div id="featured-recipes" class="recipes-grid"></div>
+    </section>
+    
+    <section class="categories">
+      <h2>Browse by Category</h2>
+      <div class="categories-grid">
+        <div class="category-card">
+          <h3>Breakfast</h3>
+          <p>Start your day right</p>
+        </div>
+        <div class="category-card">
+          <h3>Lunch</h3>
+          <p>Quick midday meals</p>
+        </div>
+        <div class="category-card">
+          <h3>Dinner</h3>
+          <p>Delicious evening dishes</p>
+        </div>
+        <div class="category-card">
+          <h3>Desserts</h3>
+          <p>Sweet treats</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <p>© <span id="year"></span> Gabriel James | WDD 231 Final Project</p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+    <p><a href="attributions.html">Attributions</a> | <a href="https://youtu.be/your-video-id" target="_blank">Project Video</a></p>
+  </footer>
+  
+  <dialog id="recipe-modal">
+    <button id="close-modal" aria-label="Close modal">×</button>
+    <div id="modal-content"></div>
+  </dialog>
+</body>
+</html>

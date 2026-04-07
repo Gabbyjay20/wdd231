@@ -1,0 +1,370 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Pancakes",
+    "category": "breakfast",
+    "difficulty": "easy",
+    "cookingTime": 15,
+    "servings": 4,
+    "image": "images/pancakes.jpg",
+    "description": "Fluffy, golden pancakes perfect for a weekend breakfast.",
+    "ingredients": [
+      "1 ½ cups all-purpose flour",
+      "3 ½ teaspoons baking powder",
+      "1 tablespoon sugar",
+      "¼ teaspoon salt",
+      "1 ¼ cups milk",
+      "1 egg",
+      "3 tablespoons melted butter"
+    ],
+    "instructions": [
+      "In a large bowl, mix flour, baking powder, sugar, and salt.",
+      "In another bowl, whisk milk, egg, and melted butter.",
+      "Combine wet and dry ingredients; stir until just mixed.",
+      "Heat a griddle over medium heat; lightly oil.",
+      "Pour ¼ cup batter per pancake; cook until bubbles form.",
+      "Flip and cook until golden brown."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Avocado Toast",
+    "category": "breakfast",
+    "difficulty": "easy",
+    "cookingTime": 10,
+    "servings": 2,
+    "image": "images/avocado-toast.jpg",
+    "description": "Simple, healthy, and delicious avocado toast.",
+    "ingredients": [
+      "2 slices sourdough bread",
+      "1 ripe avocado",
+      "1 teaspoon lemon juice",
+      "Salt and pepper to taste",
+      "Red pepper flakes (optional)",
+      "Poached egg (optional)"
+    ],
+    "instructions": [
+      "Toast the bread until golden and crispy.",
+      "Mash avocado with lemon juice, salt, and pepper.",
+      "Spread avocado mixture on toast.",
+      "Top with red pepper flakes or poached egg if desired."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Greek Yogurt Bowl",
+    "category": "breakfast",
+    "difficulty": "easy",
+    "cookingTime": 5,
+    "servings": 1,
+    "image": "images/yogurt-bowl.jpg",
+    "description": "Creamy yogurt bowl with fresh fruits and granola.",
+    "ingredients": [
+      "1 cup Greek yogurt",
+      "½ cup mixed berries",
+      "¼ cup granola",
+      "1 tablespoon honey",
+      "1 tablespoon chia seeds"
+    ],
+    "instructions": [
+      "Spoon yogurt into a bowl.",
+      "Top with berries, granola, and chia seeds.",
+      "Drizzle with honey and serve immediately."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Caesar Salad",
+    "category": "lunch",
+    "difficulty": "medium",
+    "cookingTime": 20,
+    "servings": 2,
+    "image": "images/caesar-salad.jpg",
+    "description": "Classic Caesar salad with homemade dressing.",
+    "ingredients": [
+      "2 romaine lettuce hearts",
+      "¼ cup parmesan cheese",
+      "½ cup croutons",
+      "½ cup Caesar dressing",
+      "1 lemon wedge"
+    ],
+    "instructions": [
+      "Wash and chop romaine lettuce.",
+      "Toss with Caesar dressing in a large bowl.",
+      "Add croutons and parmesan cheese.",
+      "Serve with a lemon wedge."
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Chicken Wrap",
+    "category": "lunch",
+    "difficulty": "easy",
+    "cookingTime": 15,
+    "servings": 2,
+    "image": "images/chicken-wrap.jpg",
+    "description": "Grilled chicken wrap with fresh vegetables.",
+    "ingredients": [
+      "2 large tortillas",
+      "2 grilled chicken breasts",
+      "½ cup shredded lettuce",
+      "½ cup diced tomatoes",
+      "¼ cup ranch dressing",
+      "½ avocado sliced"
+    ],
+    "instructions": [
+      "Warm tortillas briefly on a pan.",
+      "Layer chicken, lettuce, tomatoes, and avocado.",
+      "Drizzle with ranch dressing.",
+      "Roll tightly and cut in half."
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Tomato Soup",
+    "category": "lunch",
+    "difficulty": "medium",
+    "cookingTime": 30,
+    "servings": 4,
+    "image": "images/tomato-soup.jpg",
+    "description": "Creamy homemade tomato soup with basil.",
+    "ingredients": [
+      "4 ripe tomatoes",
+      "1 onion diced",
+      "2 garlic cloves",
+      "2 cups vegetable broth",
+      "¼ cup heavy cream",
+      "Fresh basil leaves"
+    ],
+    "instructions": [
+      "Sauté onion and garlic until soft.",
+      "Add tomatoes and cook for 10 minutes.",
+      "Pour in broth and simmer 15 minutes.",
+      "Blend until smooth, stir in cream.",
+      "Garnish with fresh basil."
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Spaghetti Bolognese",
+    "category": "dinner",
+    "difficulty": "medium",
+    "cookingTime": 45,
+    "servings": 4,
+    "image": "images/spaghetti.jpg",
+    "description": "Classic Italian spaghetti with rich meat sauce.",
+    "ingredients": [
+      "500g ground beef",
+      "1 onion diced",
+      "2 garlic cloves minced",
+      "800g crushed tomatoes",
+      "400g spaghetti",
+      "Parmesan cheese"
+    ],
+    "instructions": [
+      "Brown ground beef in a large pan.",
+      "Add onion and garlic; cook 5 minutes.",
+      "Stir in crushed tomatoes; simmer 30 minutes.",
+      "Cook spaghetti according to package directions.",
+      "Serve sauce over pasta with parmesan."
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Grilled Salmon",
+    "category": "dinner",
+    "difficulty": "easy",
+    "cookingTime": 20,
+    "servings": 2,
+    "image": "images/salmon.jpg",
+    "description": "Perfectly grilled salmon with lemon and herbs.",
+    "ingredients": [
+      "2 salmon fillets",
+      "2 tablespoons olive oil",
+      "1 lemon sliced",
+      "2 cloves garlic minced",
+      "Fresh dill",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Preheat grill to medium-high heat.",
+      "Brush salmon with olive oil; season with salt and pepper.",
+      "Place lemon slices on grill, top with salmon.",
+      "Grill 4-5 minutes per side.",
+      "Garnish with fresh dill."
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Vegetable Stir Fry",
+    "category": "dinner",
+    "difficulty": "easy",
+    "cookingTime": 15,
+    "servings": 2,
+    "image": "images/stir-fry.jpg",
+    "description": "Colorful vegetable stir fry with ginger and soy sauce.",
+    "ingredients": [
+      "2 cups mixed vegetables",
+      "2 tablespoons soy sauce",
+      "1 tablespoon ginger grated",
+      "2 garlic cloves",
+      "1 tablespoon sesame oil",
+      "Rice for serving"
+    ],
+    "instructions": [
+      "Heat sesame oil in a wok over high heat.",
+      "Add garlic and ginger; stir fry 30 seconds.",
+      "Add vegetables; cook 3-4 minutes until crisp-tender.",
+      "Pour in soy sauce; toss well.",
+      "Serve over cooked rice."
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Chocolate Chip Cookies",
+    "category": "dessert",
+    "difficulty": "easy",
+    "cookingTime": 25,
+    "servings": 24,
+    "image": "images/cookies.jpg",
+    "description": "Soft and chewy classic chocolate chip cookies.",
+    "ingredients": [
+      "2 ¼ cups flour",
+      "1 cup butter softened",
+      "¾ cup brown sugar",
+      "¾ cup white sugar",
+      "2 eggs",
+      "2 cups chocolate chips"
+    ],
+    "instructions": [
+      "Preheat oven to 375°F (190°C).",
+      "Cream butter and sugars until fluffy.",
+      "Beat in eggs one at a time.",
+      "Gradually mix in flour.",
+      "Stir in chocolate chips.",
+      "Bake 9-11 minutes until golden."
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Classic Cheesecake",
+    "category": "dessert",
+    "difficulty": "hard",
+    "cookingTime": 60,
+    "servings": 8,
+    "image": "images/cheesecake.jpg",
+    "description": "Creamy New York style cheesecake.",
+    "ingredients": [
+      "2 cups graham cracker crumbs",
+      "½ cup melted butter",
+      "32 oz cream cheese",
+      "1 cup sugar",
+      "4 eggs",
+      "1 cup sour cream"
+    ],
+    "instructions": [
+      "Mix crumbs and butter; press into pan bottom.",
+      "Beat cream cheese and sugar until smooth.",
+      "Add eggs one at a time, then sour cream.",
+      "Pour over crust; bake 55 minutes.",
+      "Cool slowly in oven with door cracked.",
+      "Refrigerate at least 4 hours before serving."
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Fruit Smoothie",
+    "category": "dessert",
+    "difficulty": "easy",
+    "cookingTime": 5,
+    "servings": 2,
+    "image": "images/smoothie.jpg",
+    "description": "Refreshing mixed fruit smoothie.",
+    "ingredients": [
+      "1 cup frozen mixed berries",
+      "1 banana",
+      "1 cup almond milk",
+      "1 tablespoon honey",
+      "½ cup Greek yogurt"
+    ],
+    "instructions": [
+      "Add all ingredients to blender.",
+      "Blend until smooth and creamy.",
+      "Pour into glasses and serve immediately."
+    ]
+  },
+  {
+    "id": 13,
+    "name": "French Omelette",
+    "category": "breakfast",
+    "difficulty": "medium",
+    "cookingTime": 10,
+    "servings": 1,
+    "image": "images/omelette.jpg",
+    "description": "Light and fluffy classic French omelette.",
+    "ingredients": [
+      "3 large eggs",
+      "2 tablespoons butter",
+      "Salt and pepper",
+      "2 tablespoons grated cheese",
+      "Fresh herbs"
+    ],
+    "instructions": [
+      "Whisk eggs vigorously with salt and pepper.",
+      "Melt butter in non-stick pan over medium heat.",
+      "Pour in eggs; stir rapidly with fork.",
+      "When set, add fillings to center.",
+      "Fold into thirds and slide onto plate."
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Beef Tacos",
+    "category": "dinner",
+    "difficulty": "easy",
+    "cookingTime": 25,
+    "servings": 4,
+    "image": "images/tacos.jpg",
+    "description": "Flavorful Mexican beef tacos with all the fixings.",
+    "ingredients": [
+      "500g ground beef",
+      "1 packet taco seasoning",
+      "8 taco shells",
+      "1 cup shredded lettuce",
+      "1 cup diced tomatoes",
+      "Shredded cheese"
+    ],
+    "instructions": [
+      "Brown ground beef in skillet over medium heat.",
+      "Drain excess fat; add taco seasoning and water.",
+      "Simmer 5 minutes until thickened.",
+      "Warm taco shells according to package.",
+      "Fill shells with beef and toppings."
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Apple Pie",
+    "category": "dessert",
+    "difficulty": "hard",
+    "cookingTime": 75,
+    "servings": 8,
+    "image": "images/apple-pie.jpg",
+    "description": "Traditional homemade apple pie with flaky crust.",
+    "ingredients": [
+      "2 pie crusts",
+      "6 apples peeled and sliced",
+      "¾ cup sugar",
+      "2 tablespoons flour",
+      "1 teaspoon cinnamon",
+      "2 tablespoons butter"
+    ],
+    "instructions": [
+      "Preheat oven to 425°F (220°C).",
+      "Mix apples with sugar, flour, and cinnamon.",
+      "Line pan with bottom crust; add apple mixture.",
+      "Dot with butter; cover with top crust.",
+      "Bake 15 minutes at 425°, then 45 minutes at 350°."
+    ]
+  }
+]

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Recipe Explorer | All Recipes</title>
+  
+  <meta name="description" content="Browse all our recipes. Filter by category, difficulty, and cooking time to find the perfect meal.">
+  <meta name="author" content="Gabriel James">
+  
+  <meta property="og:title" content="Recipe Explorer - All Recipes">
+  <meta property="og:description" content="Browse all our recipes. Filter by category, difficulty, and cooking time.">
+  <meta property="og:image" content="https://gabbyjay20.github.io/wdd231/final/images/hero.jpg">
+  <meta property="og:url" content="https://gabbyjay20.github.io/wdd231/final/recipes.html">
+  
+  <link rel="icon" href="images/favicon.png">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  
+  <script src="scripts/recipes.js" type="module" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>🍴 Recipe Explorer</h1>
+    </div>
+    <button id="menu-toggle" aria-label="Toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+  </header>
+  
+  <nav id="navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="recipes.html" class="active">Recipes</a></li>
+      <li><a href="favorites.html">Favorites</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <h2>All Recipes</h2>
+    
+    <div class="filters">
+      <select id="category-filter" aria-label="Filter by category">
+        <option value="all">All Categories</option>
+        <option value="breakfast">Breakfast</option>
+        <option value="lunch">Lunch</option>
+        <option value="dinner">Dinner</option>
+        <option value="dessert">Dessert</option>
+      </select>
+      
+      <select id="difficulty-filter" aria-label="Filter by difficulty">
+        <option value="all">All Difficulties</option>
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+      
+      <button id="sort-btn" aria-label="Sort recipes">Sort by Time ⏱️</button>
+    </div>
+    
+    <div id="all-recipes" class="recipes-grid"></div>
+  </main>
+  
+  <footer>
+    <p>© <span id="year"></span> Gabriel James | WDD 231 Final Project</p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+    <p><a href="attributions.html">Attributions</a> | <a href="https://youtu.be/your-video-id" target="_blank">Project Video</a></p>
+  </footer>
+  
+  <dialog id="recipe-modal">
+    <button id="close-modal" aria-label="Close modal">×</button>
+    <div id="modal-content"></div>
+  </dialog>
+</body>
+</html>

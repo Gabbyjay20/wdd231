@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Recipe Explorer | My Favorites</title>
+  
+  <meta name="description" content="View and manage your favorite saved recipes.">
+  <meta name="author" content="Gabriel James">
+  
+  <meta property="og:title" content="Recipe Explorer - My Favorites">
+  <meta property="og:description" content="View and manage your favorite saved recipes.">
+  <meta property="og:image" content="https://gabbyjay20.github.io/wdd231/final/images/hero.jpg">
+  <meta property="og:url" content="https://gabbyjay20.github.io/wdd231/final/favorites.html">
+  
+  <link rel="icon" href="images/favicon.png">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  
+  <script src="scripts/favorites.js" type="module" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>🍴 Recipe Explorer</h1>
+    </div>
+    <button id="menu-toggle" aria-label="Toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+  </header>
+  
+  <nav id="navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="recipes.html">Recipes</a></li>
+      <li><a href="favorites.html" class="active">Favorites</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <h2>My Favorite Recipes</h2>
+    
+    <div id="favorites-empty" class="empty-state">
+      <h3>No favorites yet!</h3>
+      <p>Browse recipes and click the ❤️ button to save your favorites.</p>
+      <a href="recipes.html" class="cta-button primary">Browse Recipes</a>
+    </div>
+    
+    <div id="favorites-recipes" class="recipes-grid"></div>
+  </main>
+  
+  <footer>
+    <p>© <span id="year"></span> Gabriel James | WDD 231 Final Project</p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+    <p><a href="attributions.html">Attributions</a> | <a href="https://youtu.be/your-video-id" target="_blank">Project Video</a></p>
+  </footer>
+  
+  <dialog id="recipe-modal">
+    <button id="close-modal" aria-label="Close modal">×</button>
+    <div id="modal-content"></div>
+  </dialog>
+</body>
+</html>
