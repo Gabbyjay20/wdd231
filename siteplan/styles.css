@@ -1,0 +1,83 @@
+/* ======================= styles.css ======================= */
+:root {
+    --primary-color: #1E3A8A;
+    --secondary-color: #F3F4F6;
+    --accent-color: #111827;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: var(--secondary-color);
+    color: var(--accent-color);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+section {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    font-weight: 700;
+}
+
+.color-box {
+    display: inline-block;
+    width: 120px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 60px;
+    font-size: 0.9rem;
+}
+
+.primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.secondary {
+    background-color: var(--secondary-color);
+    color: black;
+}
+
+.wireframe {
+    border: 2px dashed #555;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #fafafa;
+}
+
+.box {
+    border: 1px solid #333;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: center;
+    background-color: #e5e7eb;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
