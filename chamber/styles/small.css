@@ -1,11 +1,10 @@
 
-
 header {
   text-align: center;
   padding: 1.5rem;
   background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
-  color: white;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,11 +14,7 @@ header {
 header h1 {
   margin: 0;
   font-size: 1.8rem;
-}
-
-
-
-/* Mobile Navigation */
+}/* Mobile Navigation */
 #menu-toggle {
   display: block;
   background: none;
@@ -32,7 +27,7 @@ header h1 {
   display: block;
   width: 25px;
   height: 3px;
-  background-color: white;
+  background-color: #ffffff;
   position: relative;
   transition: background-color 0.3s;
 }
@@ -43,7 +38,7 @@ header h1 {
   position: absolute;
   width: 100%;
   height: 3px;
-  background-color: white;
+  background-color: #ffffff;
   left: 0;
   transition: transform 0.3s;
 }
@@ -62,8 +57,8 @@ nav ul {
   top: 100%;
   left: 0;
   right: 0;
-  background: white;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  background: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 1rem;
   list-style: none;
 }
@@ -204,7 +199,7 @@ nav a {
 }
 
 #membership-form {
-  background-color: white;
+  background-color: #ffffff;
   padding: 1.5rem;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -254,7 +249,7 @@ nav a {
   width: 100%;
   padding: 1rem;
   background-color: #1e3a8a;
-  color: white;
+  color: #ffffff;
   border: none;
   border-radius: 8px;
   font-size: 1.1rem;
@@ -276,7 +271,7 @@ nav a {
 }
 
 .membership-card {
-  background-color: white;
+  background-color: #ffffff;
   padding: 1.5rem;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -341,7 +336,7 @@ nav a {
 
 .thankyou-section {
   text-align: center;
-  background-color: white;
+  background-color: #ffffff;
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -400,14 +395,14 @@ nav a {
 }
 
 .cta-button.secondary {
-  background-color: white;
+  background-color: #ffffff;
   color: #1e3a8a;
   border: 2px solid #1e3a8a;
 }
 
 .cta-button.secondary:hover {
   background-color: #1e3a8a;
-  color: white;
+  color: #ffffff;
 }
 
 dialog {
@@ -443,7 +438,7 @@ dialog li {
 dialog button {
   padding: 0.5rem 1.5rem;
   background-color: #1e3a8a;
-  color: white;
+  color: #ffffff;
   border: none;
   border-radius: 6px;
   font-weight: 600;
@@ -529,7 +524,7 @@ dialog button:hover {
 .place-card button {
   padding: 0.5rem 1rem;
   background: #2563eb;
-  color: white;
+  color: #ffffff;
   border: none;
   border-radius: 4px;
   cursor: pointer;
