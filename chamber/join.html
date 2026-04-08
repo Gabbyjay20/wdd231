@@ -17,12 +17,14 @@
 
 <link rel="icon" href="images/favicon.jpeg">
 
+<!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="styles/normalize.css">
 <link rel="stylesheet" href="styles/small.css">
+<link rel="stylesheet" href="styles/medium.css">
 <link rel="stylesheet" href="styles/larger.css">
 
 <script src="scripts/join.js" defer></script>
@@ -31,17 +33,23 @@
 
 <body>
 
-<header>
-<h1>Lagos Chamber of Commerce</h1>
-</header>
-
-<nav>
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="directory.html">Directory</a></li>
-<li><a href="join.html" class="active">Membership</a></li>
-</ul>
-</nav>
+  <header>
+    <div class="logo">
+      <h1>Lagos Chamber of Commerce</h1>
+    </div>
+    <button id="menu-toggle" aria-label="Toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    <nav id="navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Area Info</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Membership</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
 <main class="join-section">
 

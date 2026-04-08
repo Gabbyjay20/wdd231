@@ -14,12 +14,15 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 header h1 {
   margin: 0;
   font-size: 1.8rem;
 }
+
+
 
 /* Mobile Navigation */
 #menu-toggle {
@@ -56,6 +59,32 @@ header h1 {
 
 .hamburger::after {
   top: 8px;
+}
+
+nav ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 1rem;
+  list-style: none;
+}
+
+.active nav ul {
+  display: block;
+}
+
+nav li {
+  margin: 0.5rem 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1e3a8a;
+  font-weight: 500;
 }
 
 /* Search Bar */
@@ -441,4 +470,77 @@ dialog button:hover {
     opacity: 1;
     transform: scale(1);
   }
+}
+
+/* Discover Page Styles */
+#visit-message {
+  text-align: center;
+  margin: 1rem;
+  font-weight: bold;
+  color: #1e3a8a;
+}
+
+.places-section {
+  padding: 1rem;
+}
+
+.places-section h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #1e3a8a;
+}
+
+.places-grid {
+  display: grid;
+  grid-template-areas: "card1" "card2" "card3" "card4" "card5" "card6" "card7" "card8";
+  gap: 1rem;
+}
+
+.place-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.place-card h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: #1e3a8a;
+}
+
+.place-card figure {
+  margin: 0.5rem 0;
+}
+
+.place-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.place-card address {
+  font-style: normal;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.place-card p {
+  margin: 0.5rem 0;
+  color: #333;
+}
+
+.place-card button {
+  padding: 0.5rem 1rem;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.place-card button:hover {
+  background: #1e40af;
 }
