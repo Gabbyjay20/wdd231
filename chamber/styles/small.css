@@ -51,6 +51,20 @@ header h1 {
   top: 8px;
 }
 
+#menu-toggle.active .hamburger {
+  background-color: transparent;
+}
+
+#menu-toggle.active .hamburger::before {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+#menu-toggle.active .hamburger::after {
+  transform: rotate(-45deg);
+  top: 0;
+}
+
 nav ul {
   display: none;
   position: absolute;
@@ -63,7 +77,7 @@ nav ul {
   list-style: none;
 }
 
-.active nav ul {
+nav.active ul {
   display: block;
 }
 
@@ -75,6 +89,13 @@ nav a {
   text-decoration: none;
   color: #1e3a8a;
   font-weight: 500;
+}
+
+nav a.active {
+  background-color: #2563eb;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
 }
 
 /* Search Bar */
@@ -482,9 +503,27 @@ dialog button:hover {
 
 .places-grid {
   display: grid;
-  grid-template-areas: "card1" "card2" "card3" "card4" "card5" "card6" "card7" "card8";
+  grid-template-columns: 1fr;
+  grid-template-areas: 
+    "card1" 
+    "card2" 
+    "card3" 
+    "card4" 
+    "card5" 
+    "card6" 
+    "card7" 
+    "card8";
   gap: 1rem;
 }
+
+.place-card:nth-child(1) { grid-area: card1; }
+.place-card:nth-child(2) { grid-area: card2; }
+.place-card:nth-child(3) { grid-area: card3; }
+.place-card:nth-child(4) { grid-area: card4; }
+.place-card:nth-child(5) { grid-area: card5; }
+.place-card:nth-child(6) { grid-area: card6; }
+.place-card:nth-child(7) { grid-area: card7; }
+.place-card:nth-child(8) { grid-area: card8; }
 
 .place-card {
   background: white;

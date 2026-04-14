@@ -15,6 +15,29 @@ if (menuToggle && navigation) {
   });
 }
 
+// Also fix hamburger animation
+document.addEventListener('DOMContentLoaded', () => {
+  const menuToggle = document.getElementById('menu-toggle');
+  const hamburger = document.querySelector('.hamburger');
+  
+  menuToggle.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+  });
+});
+
+// Navigation Wayfinding - set active class for current page
+document.addEventListener('DOMContentLoaded', () => {
+  const currentPage = window.location.pathname.split('/').pop();
+  const navLinks = document.querySelectorAll('nav a');
+  
+  navLinks.forEach(link => {
+    const linkPage = link.getAttribute('href');
+    if (linkPage === currentPage) {
+      link.classList.add('active');
+    }
+  });
+});
+
 document.addEventListener('DOMContentLoaded', () => {
   // Visit message
   const visitMessage = document.getElementById('visit-message');
