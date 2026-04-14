@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 13",
+    "price": "$799",
+    "category": "Smartphone",
+    "image": "images/iphone13.jpg",
+    "description": "A powerful smartphone with A15 Bionic chip and dual camera system."
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy S21",
+    "price": "$699",
+    "category": "Smartphone",
+    "image": "images/galaxy-s21.jpg",
+    "description": "High-end Android phone with excellent display and camera."
+  },
+  {
+    "id": 3,
+    "name": "MacBook Air M1",
+    "price": "$999",
+    "category": "Laptop",
+    "image": "images/macbook-air.jpg",
+    "description": "Lightweight laptop with Apple M1 chip and long battery life."
+  },
+  {
+    "id": 4,
+    "name": "Dell XPS 13",
+    "price": "$1099",
+    "category": "Laptop",
+    "image": "images/dell-xps.jpg",
+    "description": "Premium laptop with InfinityEdge display and sleek design."
+  },
+  {
+    "id": 5,
+    "name": "Sony WH-1000XM4",
+    "price": "$349",
+    "category": "Headphones",
+    "image": "images/sony-headphones.jpg",
+    "description": "Industry-leading noise canceling wireless headphones."
+  },
+  {
+    "id": 6,
+    "name": "AirPods Pro",
+    "price": "$249",
+    "category": "Earbuds",
+    "image": "images/airpods-pro.jpg",
+    "description": "Wireless earbuds with active noise cancellation."
+  },
+  {
+    "id": 7,
+    "name": "Apple Watch Series 7",
+    "price": "$399",
+    "category": "Smartwatch",
+    "image": "images/apple-watch.jpg",
+    "description": "Advanced smartwatch with health tracking features."
+  },
+  {
+    "id": 8,
+    "name": "Fitbit Charge 5",
+    "price": "$179",
+    "category": "Fitness",
+    "image": "images/fitbit.jpg",
+    "description": "Fitness tracker with heart rate monitoring and GPS."
+  },
+  {
+    "id": 9,
+    "name": "Canon EOS M50",
+    "price": "$649",
+    "category": "Camera",
+    "image": "images/canon-m50.jpg",
+    "description": "Mirrorless camera perfect for content creators."
+  },
+  {
+    "id": 10,
+    "name": "Nikon D3500",
+    "price": "$499",
+    "category": "Camera",
+    "image": "images/nikon-d3500.jpg",
+    "description": "Beginner-friendly DSLR with great image quality."
+  },
+  {
+    "id": 11,
+    "name": "PlayStation 5",
+    "price": "$499",
+    "category": "Gaming",
+    "image": "images/ps5.jpg",
+    "description": "Next-gen gaming console with ultra-fast SSD."
+  },
+  {
+    "id": 12,
+    "name": "Xbox Series X",
+    "price": "$499",
+    "category": "Gaming",
+    "image": "images/xbox.jpg",
+    "description": "Powerful console with high performance gaming."
+  },
+  {
+    "id": 13,
+    "name": "HP Envy Printer",
+    "price": "$199",
+    "category": "Accessories",
+    "image": "images/printer.jpg",
+    "description": "All-in-one printer for home and office use."
+  },
+  {
+    "id": 14,
+    "name": "Logitech MX Master 3",
+    "price": "$99",
+    "category": "Accessories",
+    "image": "images/mouse.jpg",
+    "description": "Advanced wireless mouse with ergonomic design."
+  },
+  {
+    "id": 15,
+    "name": "Mechanical Keyboard",
+    "price": "$129",
+    "category": "Accessories",
+    "image": "images/keyboard.jpg",
+    "description": "RGB mechanical keyboard with tactile feedback."
+  }
+]
